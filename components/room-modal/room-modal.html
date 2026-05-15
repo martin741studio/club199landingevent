@@ -1,0 +1,68 @@
+<dialog id="room-detail-modal" class="room-modal hide-scrollbar bg-transparent backdrop-blur-md">
+  <div class="room-modal__overlay fixed inset-0 bg-black/80 backdrop-blur-sm z-[100]" aria-hidden="true"></div>
+  
+  <div class="room-modal__container fixed inset-0 z-[101] flex items-center justify-center p-4 md:p-8">
+    <div class="room-modal__content w-full max-w-6xl max-h-full bg-surface-dark border border-white/10 rounded-2xl overflow-hidden flex flex-col md:flex-row relative shadow-2xl">
+      
+      <!-- Close Button -->
+      <button class="room-modal__close absolute top-4 right-4 z-50 w-12 h-12 flex items-center justify-center bg-brand-yellow/10 text-brand-yellow hover:bg-brand-yellow hover:text-black rounded-full border border-brand-yellow/30 transition-all duration-300 group shadow-lg" aria-label="Close modal">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="transition-transform group-hover:rotate-90"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+
+      <!-- Left Column: Data -->
+      <div class="room-modal__data w-full md:w-1/2 h-full max-h-[80vh] md:max-h-[90vh] overflow-y-auto hide-scrollbar p-8 md:p-12 relative flex flex-col">
+        <span id="rm-subtitle" class="text-brand-yellow text-xs uppercase tracking-[0.2em] font-bold mb-2 block">Subtitle</span>
+        <h2 id="rm-title" class="text-4xl md:text-5xl font-light mb-8">Room Title</h2>
+
+        <div class="flex items-center gap-6 mb-8 border-y border-white/10 py-6">
+          <div>
+            <span class="text-[10px] text-gray-500 uppercase tracking-widest block mb-1" data-i18n-de="Kapazität" data-i18n-en="Capacity">Kapazität</span>
+            <span id="rm-capacity" class="text-lg text-white font-medium">1-10 Personen</span>
+          </div>
+          <div class="w-px h-8 bg-white/10"></div>
+          <div>
+            <span class="text-[10px] text-gray-500 uppercase tracking-widest block mb-1" data-i18n-de="Preis" data-i18n-en="Price">Preis</span>
+            <span id="rm-price" class="text-lg text-white font-medium">Ab 450 €</span>
+          </div>
+        </div>
+
+        <div class="mb-8">
+          <h4 class="text-xs uppercase tracking-widest text-brand-yellow mb-3" data-i18n-de="Nutzung" data-i18n-en="Usage">Nutzung</h4>
+          <p id="rm-usage" class="text-gray-400 font-inter leading-relaxed text-sm">Room usage description goes here.</p>
+        </div>
+
+        <div class="mb-8">
+          <h4 class="text-xs uppercase tracking-widest text-brand-yellow mb-3" data-i18n-de="Ausstattung" data-i18n-en="Equipment">Ausstattung</h4>
+          <ul id="rm-equipment" class="text-sm text-gray-300 font-inter space-y-2 list-none">
+            <!-- Equipment injected here -->
+          </ul>
+        </div>
+
+        <div class="mb-8">
+          <h4 class="text-xs uppercase tracking-widest text-brand-yellow mb-3" data-i18n-de="Buchungshinweise" data-i18n-en="Booking Notes">Buchungshinweise</h4>
+          <p id="rm-booking" class="text-gray-400 font-inter leading-relaxed text-sm">Booking notes go here.</p>
+        </div>
+
+        <div class="mt-auto pt-8">
+          <a href="#anfragen" class="btn-primary w-full text-center justify-center" data-i18n-de="Jetzt Anfragen" data-i18n-en="Inquire Now">Jetzt Anfragen</a>
+        </div>
+      </div>
+
+      <!-- Right Column: Visual (Floorplan / Image) -->
+      <div class="room-modal__visual w-full md:w-1/2 h-64 md:h-auto bg-[#0a0a0a] relative flex flex-col border-l border-white/5 overflow-hidden">
+        <!-- Grid pattern overlay for architectural feel -->
+        <div class="absolute inset-0 opacity-[0.03] z-0" style="background-image: linear-gradient(rgba(255, 255, 255, 1) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 1) 1px, transparent 1px); background-size: 40px 40px;"></div>
+        
+        <div id="rm-image-wrapper" class="relative z-10 flex-1 overflow-hidden transition-all duration-500 hidden">
+          <img id="rm-image" src="" alt="Room Experience" class="w-full h-full object-cover mix-blend-luminosity opacity-50 hover:opacity-100 hover:mix-blend-normal transition-all duration-700">
+        </div>
+
+        <div id="rm-floorplan-wrapper" class="relative z-10 flex-1 border-t border-white/5 overflow-hidden transition-all duration-500 hidden bg-black/40">
+          <div class="absolute top-4 left-4 text-[10px] text-brand-yellow tracking-widest uppercase z-20">Floorplan</div>
+          <img id="rm-floorplan" src="" alt="Room Floorplan" class="w-full h-full object-contain p-8 opacity-70 hover:opacity-100 transition-all duration-700">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</dialog>

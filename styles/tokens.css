@@ -1,0 +1,20 @@
+:root {
+  --color-brand-yellow: #FFF041;
+  --color-brand-blue: #72AEE6;
+  --color-brand-black: #000000;
+  --color-surface-dark: #0A0A0A;
+  --color-surface-hover: #141414;
+  --color-border-subtle: rgba(255, 255, 255, 0.1);
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --spacing-container-px: 1.5rem;
+  --spacing-section-py: 6rem;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --spacing-container-px: 3rem;
+    --spacing-section-py: 10rem;
+  }
+}

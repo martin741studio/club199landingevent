@@ -1,0 +1,83 @@
+[
+  {
+    "id": "hero-main",
+    "room": "General",
+    "sourceUrl": "https://www.club199.com/",
+    "localPath": "/assets/images/hero-main.jpg",
+    "status": "needs_manual_download",
+    "alt": "Club199 Nürnberg Hero Background",
+    "usage": ["hero"]
+  },
+  {
+    "id": "the-office-main",
+    "room": "The Office",
+    "sourceUrl": "https://www.club199.com/spaces/office/",
+    "localPath": "/assets/images/rooms/the-office.jpg",
+    "status": "needs_manual_download",
+    "alt": "The Office meeting suite im club199 Nürnberg",
+    "usage": ["room-card", "gallery"]
+  },
+  {
+    "id": "thinktank-main",
+    "room": "ThinkTank",
+    "sourceUrl": "https://www.club199.com/spaces/thinktank/",
+    "localPath": "/assets/images/rooms/thinktank.jpg",
+    "status": "needs_manual_download",
+    "alt": "ThinkTank workspace im club199 Nürnberg",
+    "usage": ["room-card"]
+  },
+  {
+    "id": "workshop-main",
+    "room": "Workshop",
+    "sourceUrl": "https://www.club199.com/spaces/workshop/",
+    "localPath": "/assets/images/rooms/workshop.jpg",
+    "status": "needs_manual_download",
+    "alt": "Workshop area im club199 Nürnberg",
+    "usage": ["room-card"]
+  },
+  {
+    "id": "livingroom-main",
+    "room": "Livingroom",
+    "sourceUrl": "https://www.club199.com/spaces/livingroom/",
+    "localPath": "/assets/images/rooms/livingroom.jpg",
+    "status": "needs_manual_download",
+    "alt": "Livingroom space im club199 Nürnberg",
+    "usage": ["room-card"]
+  },
+  {
+    "id": "studio-main",
+    "room": "Studio",
+    "sourceUrl": "https://www.club199.com/spaces/studio/",
+    "localPath": "/assets/images/rooms/studio.jpg",
+    "status": "needs_manual_download",
+    "alt": "Studio room im club199 Nürnberg",
+    "usage": ["room-card"]
+  },
+  {
+    "id": "atelier-main",
+    "room": "Atelier",
+    "sourceUrl": "https://www.club199.com/spaces/atelier/",
+    "localPath": "/assets/images/rooms/atelier.jpg",
+    "status": "needs_manual_download",
+    "alt": "Atelier space im club199 Nürnberg",
+    "usage": ["room-card"]
+  },
+  {
+    "id": "4og-main",
+    "room": "4.OG",
+    "sourceUrl": "https://www.club199.com/spaces/viertes-og/",
+    "localPath": "/assets/images/rooms/4og.jpg",
+    "status": "needs_manual_download",
+    "alt": "Gesamtes 4.OG im club199 Nürnberg",
+    "usage": ["room-card"]
+  },
+  {
+    "id": "1og-main",
+    "room": "1.OG",
+    "sourceUrl": "https://www.club199.com/spaces/erstes-og/",
+    "localPath": "/assets/images/rooms/1og.jpg",
+    "status": "needs_manual_download",
+    "alt": "Gesamtes 1.OG im club199 Nürnberg",
+    "usage": ["room-card"]
+  }
+]

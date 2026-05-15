@@ -1,0 +1,17 @@
+@layer components {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-[var(--spacing-container-px)];
+  }
+
+  .section-py {
+    @apply py-[var(--spacing-section-py)];
+  }
+
+  .surface-card {
+    @apply bg-[var(--color-surface-dark)] border border-[var(--color-border-subtle)] transition-colors duration-300;
+  }
+
+  .surface-card:hover {
+    @apply bg-[var(--color-surface-hover)];
+  }
+}

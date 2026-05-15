@@ -1,0 +1,21 @@
+@layer base {
+  body {
+    @apply font-inter text-gray-300 antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-outfit text-white tracking-tight;
+  }
+
+  h1 {
+    @apply text-5xl md:text-7xl lg:text-8xl font-light;
+  }
+
+  h2 {
+    @apply text-4xl md:text-5xl font-light;
+  }
+  
+  h3 {
+    @apply text-2xl md:text-3xl font-light;
+  }
+}

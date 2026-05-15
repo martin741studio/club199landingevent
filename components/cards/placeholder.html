@@ -1,0 +1,26 @@
+{{#if img}}
+<div class="relative w-full h-full min-h-[400px] bg-black group overflow-hidden">
+  <img src="{{img}}" alt="{{room}}" class="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 opacity-80 group-hover:opacity-100">
+  <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-80 pointer-events-none"></div>
+  <div class="absolute bottom-0 left-0 p-8 z-10 w-full flex justify-between items-end pointer-events-none">
+     <div>
+       <h3 class="text-white text-xl font-outfit font-light tracking-wide mb-1">{{room}}</h3>
+       {{#if ratio}}<span class="text-gray-400 text-xs font-inter uppercase tracking-wider">{{ratio}}</span>{{/if}}
+     </div>
+  </div>
+</div>
+{{else}}
+<div class="relative w-full aspect-[4/5] bg-[#0A0A0A] border border-gray-800 flex flex-col items-center justify-center p-6 text-center group overflow-hidden">
+  <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-50"></div>
+  <div class="relative z-10 flex flex-col items-center">
+    <span class="text-[#FFF041] uppercase tracking-[0.2em] text-[10px] font-bold mb-3 px-2 py-1 border border-[#FFF041]/30 bg-[#FFF041]/10 rounded-sm">NEEDS_MANUAL_DOWNLOAD</span>
+    <h3 class="text-white text-xl font-outfit font-light tracking-wide mb-1">{{room}}</h3>
+    <span class="text-gray-500 text-xs font-inter uppercase tracking-wider">Ratio: {{ratio}}</span>
+  </div>
+  <!-- Cinematic corner accents -->
+  <div class="absolute top-0 left-0 w-8 h-8 border-t border-l border-white/10"></div>
+  <div class="absolute top-0 right-0 w-8 h-8 border-t border-r border-white/10"></div>
+  <div class="absolute bottom-0 left-0 w-8 h-8 border-b border-l border-white/10"></div>
+  <div class="absolute bottom-0 right-0 w-8 h-8 border-b border-r border-white/10"></div>
+</div>
+{{/if}}

@@ -1,0 +1,109 @@
+/* components/room-modal/room-modal.css */
+
+.room-modal {
+  /* Native dialog resets */
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  max-width: none;
+  max-height: none;
+}
+
+/* Custom Backdrop using separate overlay div since native ::backdrop lacks good transition support on some browsers */
+.room-modal::backdrop {
+  background: transparent;
+}
+
+/* Open State Animations */
+.room-modal[open] {
+  animation: modal-fade-in 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.room-modal[open] .room-modal__overlay {
+  animation: overlay-fade-in 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.room-modal[open] .room-modal__content {
+  animation: content-slide-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Closing State Animations */
+.room-modal.is-closing {
+  animation: modal-fade-out 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.room-modal.is-closing .room-modal__overlay {
+  animation: overlay-fade-out 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.room-modal.is-closing .room-modal__content {
+  animation: content-slide-down 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Keyframes */
+@keyframes modal-fade-in {
+  from { opacity: 0; visibility: hidden; }
+  to { opacity: 1; visibility: visible; }
+}
+
+@keyframes modal-fade-out {
+  from { opacity: 1; visibility: visible; }
+  to { opacity: 0; visibility: hidden; }
+}
+
+@keyframes overlay-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes overlay-fade-out {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+@keyframes content-slide-up {
+  from { 
+    opacity: 0;
+    transform: translateY(40px) scale(0.98);
+  }
+  to { 
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes content-slide-down {
+  from { 
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  to { 
+    opacity: 0;
+    transform: translateY(20px) scale(0.98);
+  }
+}
+
+/* Scrollbar specific to modal data area */
+.room-modal__data::-webkit-scrollbar {
+  width: 4px;
+}
+
+.room-modal__data::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.room-modal__data::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+.room-modal__data::-webkit-scrollbar-thumb:hover {
+  background: var(--color-yellow);
+}
+
+/* Stop body scrolling when modal is open */
+body.modal-open {
+  overflow: hidden;
+}
