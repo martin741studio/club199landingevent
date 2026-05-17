@@ -1,10 +1,25 @@
 <section id="catering" class="section-py bg-[#050505] border-y border-white/5">
   <div class="container-custom">
     <div class="flex flex-col lg:flex-row items-center gap-12 justify-between">
-      <div class="lg:w-1/2 order-2 lg:order-1">
-        <div class="relative surface-card overflow-hidden aspect-[4/3]">
-          {{> placeholder room="Catering & Gastronomie" }}
-        </div>
+      <div class="lg:w-1/2 order-2 lg:order-1 w-full">
+        <article class="surface-card room-card group cursor-pointer relative overflow-hidden flex flex-col h-full min-h-[400px]" data-room-id="experiences">
+          {{> placeholder room="Experiences" img="../assets/Tagungsmappe/NewClub199imags/experiences-info.png" }}
+          <div class="p-8 relative z-10 bg-surface-dark flex-1 flex flex-col">
+            <span class="text-brand-yellow text-[10px] uppercase tracking-widest font-bold mb-2" data-i18n-de="Unvergessliche Momente" data-i18n-en="Unforgettable Moments">Unvergessliche Momente</span>
+            <h3 class="text-2xl mb-2 group-hover:text-white transition-colors duration-300" data-i18n-de="Experiences" data-i18n-en="Experiences">Experiences</h3>
+            <p class="text-gray-400 text-sm font-inter mb-6 leading-relaxed flex-1" data-i18n-de="Ergänzen Sie Ihr Event mit unseren kuratierten Experiences – von Tastings bis hin zu besonderen Keynotes." data-i18n-en="Enhance your event with our curated experiences – from tastings to special keynotes.">
+              Ergänzen Sie Ihr Event mit unseren kuratierten Experiences – von Tastings bis hin zu besonderen Keynotes.
+            </p>
+            <ul class="text-xs text-gray-500 font-inter space-y-2 mb-6">
+              <li class="flex items-center gap-2"><span class="w-1 h-1 bg-white/20 rounded-full"></span> <span data-i18n-de="Maßgeschneidert" data-i18n-en="Tailor-made">Maßgeschneidert</span></li>
+              <li class="flex items-center gap-2"><span class="w-1 h-1 bg-white/20 rounded-full"></span> <span data-i18n-de="Kulinarik & Entertainment" data-i18n-en="Culinary & Entertainment">Kulinarik & Entertainment</span></li>
+            </ul>
+            <div class="flex items-center justify-between border-t border-white/10 pt-4 mt-auto">
+              <span class="text-xs uppercase tracking-widest text-gray-300" data-i18n-de="Informationen" data-i18n-en="Information">Informationen</span>
+              <span class="text-[10px] text-gray-600" data-i18n-de="Details ansehen" data-i18n-en="View details">Details ansehen</span>
+            </div>
+          </div>
+        </article>
       </div>
       <div class="lg:w-1/2 order-1 lg:order-2 lg:pl-12">
         <span class="text-brand-yellow uppercase tracking-[0.2em] text-xs font-bold mb-4 block" data-i18n-de="Catering &amp; Gastronomie" data-i18n-en="Catering &amp; Gastronomy">Catering & Gastronomie</span>

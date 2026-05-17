@@ -29,18 +29,19 @@ const debounce = (func, wait, immediate) => {
   };
 };
 
-import imgLivingRoom from "../assets/Tagungsmappe/livingroom1.png";
-import imgKitchen from "../assets/Tagungsmappe/thekitchen1.png";
-import imgThinktank from "../assets/Tagungsmappe/ThinkTank2.png";
-import imgStudio from "../assets/Tagungsmappe/thestudio1.png";
-import img4og from "../assets/Tagungsmappe/4OG1.png";
-import imgOffice from "../assets/Tagungsmappe/theoffice1.png";
-import imgWorkshop from "../assets/Tagungsmappe/workshop3.png";
-import imgAtelier from "../assets/Tagungsmappe/atelier1.png";
-import img1og from "../assets/Tagungsmappe/1og1.png";
+import imgLivingRoom from "../assets/Tagungsmappe/NewClub199imags/livingroom1.png";
+import imgKitchen from "../assets/Tagungsmappe/NewClub199imags/thekitchen1.png";
+import imgThinktank from "../assets/Tagungsmappe/NewClub199imags/thinktank1.png";
+import imgStudio from "../assets/Tagungsmappe/NewClub199imags/thestudio1.png";
+import img4og from "../assets/Tagungsmappe/NewClub199imags/4og&199entrancelogo.png";
+import imgOffice from "../assets/Tagungsmappe/NewClub199imags/theoffice1.png";
+import imgWorkshop from "../assets/Tagungsmappe/NewClub199imags/workshop31.png";
+import imgAtelier from "../assets/Tagungsmappe/NewClub199imags/atelier2.png";
+import img1og from "../assets/Tagungsmappe/NewClub199imags/1og1.png";
 
 // Map local verified assets to the slider
 const SLIDES = [
+  { name: "4. OG", color: "#000000", image: img4og },
   { name: "The Office", color: "#000000", image: imgOffice },
   { name: "Thinktank", color: "#000000", image: imgThinktank },
   { name: "Workshop III", color: "#000000", image: imgWorkshop },
@@ -48,8 +49,7 @@ const SLIDES = [
   { name: "The Studio", color: "#000000", image: imgStudio },
   { name: "Atelier", color: "#000000", image: imgAtelier },
   { name: "The Kitchen", color: "#000000", image: imgKitchen },
-  { name: "1. OG", color: "#000000", image: img1og },
-  { name: "4. OG", color: "#000000", image: img4og }
+  { name: "1. OG", color: "#000000", image: img1og }
 ];
 
 const AUTOPLAY_DELAY = 4000;
