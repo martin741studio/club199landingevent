@@ -29,15 +29,15 @@ const debounce = (func, wait, immediate) => {
   };
 };
 
-import imgLivingRoom from "../assets/Tagungsmappe/NewClub199imags/livingroom1.png";
-import imgKitchen from "../assets/Tagungsmappe/NewClub199imags/thekitchen1.png";
-import imgThinktank from "../assets/Tagungsmappe/NewClub199imags/thinktank1.png";
-import imgStudio from "../assets/Tagungsmappe/NewClub199imags/thestudio1.png";
-import img4og from "../assets/Tagungsmappe/NewClub199imags/4og&199entrancelogo.png";
-import imgOffice from "../assets/Tagungsmappe/NewClub199imags/theoffice1.png";
-import imgWorkshop from "../assets/Tagungsmappe/NewClub199imags/workshop31.png";
-import imgAtelier from "../assets/Tagungsmappe/NewClub199imags/atelier2.png";
-import img1og from "../assets/Tagungsmappe/NewClub199imags/1og1.png";
+import imgLivingRoom from "../assets/Tagungsmappe/NewClub199imags/livingroom1.webp";
+import imgKitchen from "../assets/Tagungsmappe/NewClub199imags/thekitchen1.webp";
+import imgThinktank from "../assets/Tagungsmappe/NewClub199imags/thinktank1.webp";
+import imgStudio from "../assets/Tagungsmappe/NewClub199imags/thestudio1.webp";
+import img4og from "../assets/Tagungsmappe/NewClub199imags/4og&199entrancelogo.webp";
+import imgOffice from "../assets/Tagungsmappe/NewClub199imags/theoffice1.webp";
+import imgWorkshop from "../assets/Tagungsmappe/NewClub199imags/workshop31.webp";
+import imgAtelier from "../assets/Tagungsmappe/NewClub199imags/atelier2.webp";
+import img1og from "../assets/Tagungsmappe/NewClub199imags/1og1.webp";
 
 // Map local verified assets to the slider
 const SLIDES = [

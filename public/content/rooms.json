@@ -15,12 +15,12 @@
     "equipmentEn": ["TV", "Moderation box, whiteboards and flipchart on request"],
     "bookingNotes": "Ganz- oder halbtags buchbar. 9:00-13:00 & 14:00-18:00. Individueller Zeitraum auf Anfrage. Alle Preise exkl. MwSt. Getränke nach Verbrauch. Verpflegung auf Anfrage.",
     "bookingNotesEn": "Bookable full or half day. 9:00-13:00 & 14:00-18:00. Individual times on request. All prices excl. VAT. Drinks based on consumption. Catering on request.",
-    "image": "/assets/Tagungsmappe/NewClub199imags/theoffice1.png",
+    "image": "/assets/Tagungsmappe/NewClub199imags/theoffice1.webp",
     "images": [
-      "/assets/Tagungsmappe/NewClub199imags/theoffice1.png",
-      "/assets/Tagungsmappe/NewClub199imags/theoffice3.png"
+      "/assets/Tagungsmappe/NewClub199imags/theoffice1.webp",
+      "/assets/Tagungsmappe/NewClub199imags/theoffice3.webp"
     ],
-    "floorplan": "/assets/images/floorplan/theofficefloorplan.png"
+    "floorplan": "/assets/images/floorplan/theofficefloorplan.webp"
   },
   {
     "id": "thinktank",
@@ -38,13 +38,13 @@
     "equipmentEn": ["Moderation box", "Writable walls", "Flipchart on request"],
     "bookingNotes": "Ganz- oder halbtags buchbar. 9:00-13:00 & 14:00-18:00. Individueller Zeitraum auf Anfrage. Alle Preise exkl. MwSt. Getränke nach Verbrauch. Verpflegung auf Anfrage.",
     "bookingNotesEn": "Bookable full or half day. 9:00-13:00 & 14:00-18:00. Individual times on request. All prices excl. VAT. Drinks based on consumption. Catering on request.",
-    "image": "/assets/Tagungsmappe/NewClub199imags/thinktank1.png",
+    "image": "/assets/Tagungsmappe/NewClub199imags/thinktank1.webp",
     "images": [
-      "/assets/Tagungsmappe/NewClub199imags/thinktank1.png",
-      "/assets/Tagungsmappe/NewClub199imags/thinktank2.png",
-      "/assets/Tagungsmappe/NewClub199imags/thinktank4.png"
+      "/assets/Tagungsmappe/NewClub199imags/thinktank1.webp",
+      "/assets/Tagungsmappe/NewClub199imags/thinktank2.webp",
+      "/assets/Tagungsmappe/NewClub199imags/thinktank4.webp"
     ],
-    "floorplan": "/assets/images/floorplan/Thinktankfloorplan.png"
+    "floorplan": "/assets/images/floorplan/Thinktankfloorplan.webp"
   },
   {
     "id": "workshop-iii",
@@ -62,12 +62,12 @@
     "equipmentEn": ["TV", "Moderation box", "Writable walls", "Flipchart on request"],
     "bookingNotes": "Ganz- oder halbtags buchbar. 9:00-13:00 & 14:00-18:00. Individueller Zeitraum auf Anfrage. Alle Preise exkl. MwSt. Getränke nach Verbrauch. Verpflegung auf Anfrage.",
     "bookingNotesEn": "Bookable full or half day. 9:00-13:00 & 14:00-18:00. Individual times on request. All prices excl. VAT. Drinks based on consumption. Catering on request.",
-    "image": "/assets/Tagungsmappe/NewClub199imags/workshop31.png",
+    "image": "/assets/Tagungsmappe/NewClub199imags/workshop31.webp",
     "images": [
-      "/assets/Tagungsmappe/NewClub199imags/workshop31.png",
-      "/assets/Tagungsmappe/NewClub199imags/workshop32.png"
+      "/assets/Tagungsmappe/NewClub199imags/workshop31.webp",
+      "/assets/Tagungsmappe/NewClub199imags/workshop32.webp"
     ],
-    "floorplan": "/assets/images/floorplan/workshop3floorplan.png"
+    "floorplan": "/assets/images/floorplan/workshop3floorplan.webp"
   },
   {
     "id": "living-room",
@@ -85,13 +85,13 @@
     "equipmentEn": ["Chill-out atmosphere", "TV", "Sound system"],
     "bookingNotes": "Individueller Zeitraum auf Anfrage. Alle Preise exkl. MwSt. Getränke nach Verbrauch. Verpflegung auf Anfrage.",
     "bookingNotesEn": "Individual times on request. All prices excl. VAT. Drinks based on consumption. Catering on request.",
-    "image": "/assets/Tagungsmappe/NewClub199imags/livingroom1.png",
+    "image": "/assets/Tagungsmappe/NewClub199imags/livingroom1.webp",
     "images": [
-      "/assets/Tagungsmappe/NewClub199imags/livingroom1.png",
-      "/assets/Tagungsmappe/NewClub199imags/livingroom2.png",
-      "/assets/Tagungsmappe/NewClub199imags/livingroom3.png"
+      "/assets/Tagungsmappe/NewClub199imags/livingroom1.webp",
+      "/assets/Tagungsmappe/NewClub199imags/livingroom2.webp",
+      "/assets/Tagungsmappe/NewClub199imags/livingroom3.webp"
     ],
-    "floorplan": "/assets/images/floorplan/linvingroomfloorplan.png"
+    "floorplan": "/assets/images/floorplan/linvingroomfloorplan.webp"
   },
   {
     "id": "the-studio",
@@ -109,11 +109,11 @@
     "equipmentEn": ["TV", "Moderation box", "Whiteboards", "Flipchart on request"],
     "bookingNotes": "Ganz- oder halbtags buchbar. 9:00-13:00 & 14:00-18:00. Individueller Zeitraum auf Anfrage. Alle Preise exkl. MwSt. Getränke nach Verbrauch. Verpflegung auf Anfrage.",
     "bookingNotesEn": "Bookable full or half day. 9:00-13:00 & 14:00-18:00. Individual times on request. All prices excl. VAT. Drinks based on consumption. Catering on request.",
-    "image": "/assets/Tagungsmappe/NewClub199imags/thestudio1.png",
+    "image": "/assets/Tagungsmappe/NewClub199imags/thestudio1.webp",
     "images": [
-      "/assets/Tagungsmappe/NewClub199imags/thestudio1.png"
+      "/assets/Tagungsmappe/NewClub199imags/thestudio1.webp"
     ],
-    "floorplan": "/assets/images/floorplan/thestudiofloorplan.png"
+    "floorplan": "/assets/images/floorplan/thestudiofloorplan.webp"
   },
   {
     "id": "atelier",
@@ -131,13 +131,13 @@
     "equipmentEn": ["85\" Screen", "Sound", "Stage", "Microphones on request"],
     "bookingNotes": "Ganz- oder halbtags buchbar. 9:00-13:00 & 14:00-18:00. Individueller Zeitraum auf Anfrage. Alle Preise exkl. MwSt. Getränke nach Verbrauch. Verpflegung auf Anfrage.",
     "bookingNotesEn": "Bookable full or half day. 9:00-13:00 & 14:00-18:00. Individual times on request. All prices excl. VAT. Drinks based on consumption. Catering on request.",
-    "image": "/assets/Tagungsmappe/NewClub199imags/atelier2.png",
+    "image": "/assets/Tagungsmappe/NewClub199imags/atelier2.webp",
     "images": [
-      "/assets/Tagungsmappe/NewClub199imags/atelier2.png",
-      "/assets/Tagungsmappe/NewClub199imags/atelier.png",
-      "/assets/Tagungsmappe/NewClub199imags/atelier3.png"
+      "/assets/Tagungsmappe/NewClub199imags/atelier2.webp",
+      "/assets/Tagungsmappe/NewClub199imags/atelier.webp",
+      "/assets/Tagungsmappe/NewClub199imags/atelier3.webp"
     ],
-    "floorplan": "/assets/images/floorplan/atelierfloorplan.png"
+    "floorplan": "/assets/images/floorplan/atelierfloorplan.webp"
   },
   {
     "id": "the-kitchen",
@@ -155,12 +155,12 @@
     "equipmentEn": ["Coffee bar", "Beverage fridge", "TV", "Flipchart"],
     "bookingNotes": "Individueller Zeitraum auf Anfrage. Alle Preise exkl. MwSt. Getränke nach Verbrauch. Verpflegung auf Anfrage.",
     "bookingNotesEn": "Individual times on request. All prices excl. VAT. Drinks based on consumption. Catering on request.",
-    "image": "/assets/Tagungsmappe/NewClub199imags/thekitchen1.png",
+    "image": "/assets/Tagungsmappe/NewClub199imags/thekitchen1.webp",
     "images": [
-      "/assets/Tagungsmappe/NewClub199imags/thekitchen1.png",
-      "/assets/Tagungsmappe/NewClub199imags/thekitchen2.png"
+      "/assets/Tagungsmappe/NewClub199imags/thekitchen1.webp",
+      "/assets/Tagungsmappe/NewClub199imags/thekitchen2.webp"
     ],
-    "floorplan": "/assets/images/floorplan/thekitchenfloorplan.png"
+    "floorplan": "/assets/images/floorplan/thekitchenfloorplan.webp"
   },
   {
     "id": "1-og",
@@ -178,12 +178,12 @@
     "equipmentEn": ["Full-day events", "Entire floor", "Flexible seating"],
     "bookingNotes": "Exklusive Buchung des gesamten Stockwerks. Alle Preise exkl. MwSt. Getränke nach Verbrauch. Verpflegung auf Anfrage.",
     "bookingNotesEn": "Exclusive booking of the entire floor. All prices excl. VAT. Drinks based on consumption. Catering on request.",
-    "image": "/assets/Tagungsmappe/NewClub199imags/1og1.png",
+    "image": "/assets/Tagungsmappe/NewClub199imags/1og1.webp",
     "images": [
-      "/assets/Tagungsmappe/NewClub199imags/1og1.png",
-      "/assets/Tagungsmappe/NewClub199imags/1og.png"
+      "/assets/Tagungsmappe/NewClub199imags/1og1.webp",
+      "/assets/Tagungsmappe/NewClub199imags/1og.webp"
     ],
-    "floorplan": "/assets/images/floorplan/1ogfloorplan.png"
+    "floorplan": "/assets/images/floorplan/1ogfloorplan.webp"
   },
   {
     "id": "4-og",
@@ -201,12 +201,12 @@
     "equipmentEn": ["Rooftop terrace", "Networking Area", "Bar", "Sound system"],
     "bookingNotes": "Perfekt für exklusive Abendveranstaltungen und Sommerfeste. Individueller Zeitraum auf Anfrage.",
     "bookingNotesEn": "Perfect for exclusive evening events and summer parties. Individual times on request.",
-    "image": "/assets/Tagungsmappe/NewClub199imags/4og3.png",
+    "image": "/assets/Tagungsmappe/NewClub199imags/4og3.webp",
     "images": [
-      "/assets/Tagungsmappe/NewClub199imags/4og3.png",
-      "/assets/Tagungsmappe/NewClub199imags/4og&199entrancelogo.png"
+      "/assets/Tagungsmappe/NewClub199imags/4og3.webp",
+      "/assets/Tagungsmappe/NewClub199imags/4og&199entrancelogo.webp"
     ],
-    "floorplan": "/assets/Tagungsmappe/fp_4og.png"
+    "floorplan": "/assets/Tagungsmappe/fp_4og.webp"
   },
   {
     "id": "experiences",
@@ -224,9 +224,9 @@
     "equipmentEn": ["Tailor-made", "Culinary", "Entertainment"],
     "bookingNotes": "Individuelle Planung und Umsetzung nach Ihren Vorstellungen.",
     "bookingNotesEn": "Custom planning and execution according to your ideas.",
-    "image": "/assets/Tagungsmappe/NewClub199imags/experiences-info.png",
+    "image": "/assets/Tagungsmappe/NewClub199imags/experiences-info.webp",
     "images": [
-      "/assets/Tagungsmappe/NewClub199imags/experiences-info.png"
+      "/assets/Tagungsmappe/NewClub199imags/experiences-info.webp"
     ],
     "floorplan": ""
   }
