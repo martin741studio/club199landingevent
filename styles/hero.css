@@ -274,11 +274,11 @@
 }
 
 .club-hero__btn--primary:hover {
-  background-color: #ffffff;
-  color: #000000;
-  border-color: #ffffff;
+  background-color: #000000;
+  color: var(--color-brand-yellow);
+  border-color: var(--color-brand-yellow);
   transform: translateY(-2px);
-  box-shadow: 0 8px 32px rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px rgba(255, 240, 65, 0.3);
 }
 
 .club-hero__btn--secondary {
