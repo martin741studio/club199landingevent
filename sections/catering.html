@@ -1,47 +1,217 @@
 <section id="catering" class="section-py bg-[#050505] border-y border-white/5">
   <div class="container-custom">
-    <div class="flex flex-col lg:flex-row items-center gap-12 justify-between">
-      <div class="lg:w-1/2 order-1 lg:order-2 lg:pl-12">
-        <span class="text-brand-yellow uppercase tracking-[0.2em] text-xs font-bold mb-4 block" data-i18n-de="Catering &amp; Gastronomie" data-i18n-en="Catering &amp; Gastronomy">Catering & Gastronomie</span>
-        <h2 class="mb-6" data-i18n-de="Kulinarik für Ihr Event" data-i18n-en="Culinary Delights for Your Event">Kulinarik für Ihr Event</h2>
-        <p class="text-gray-400 font-inter text-lg leading-relaxed mb-8" data-i18n-de="Vom leichten Business-Lunch über gesundes Brain-Food bis hin zum gesetzten Dinner. Unser Inhouse-Catering-Partner sorgt dafür, dass Ihre Gäste auch kulinarisch auf höchstem Niveau begleitet werden." data-i18n-en="From a light business lunch to healthy brain food and seated dinners. Our in-house catering partner ensures that your guests are accompanied on the highest culinary level.">
-          Vom leichten Business-Lunch über gesundes Brain-Food bis hin zum gesetzten Dinner. Unser Inhouse-Catering-Partner sorgt dafür, dass Ihre Gäste auch kulinarisch auf höchstem Niveau begleitet werden.
-        </p>
-        <ul class="space-y-4 font-inter text-gray-300">
-          <li class="flex items-start gap-3">
-            <svg class="w-6 h-6 text-brand-yellow shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-            <span data-i18n-de="Leichtes Business-Lunch &amp; gesundes Brain-Food" data-i18n-en="Light business lunch &amp; healthy brain food">Leichtes Business-Lunch & gesundes Brain-Food</span>
-          </li>
-          <li class="flex items-start gap-3">
-            <svg class="w-6 h-6 text-brand-yellow shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-            <span data-i18n-de="Kaffeepausen mit Barista-Qualität" data-i18n-en="Coffee breaks with barista quality">Kaffeepausen mit Barista-Qualität</span>
-          </li>
-          <li class="flex items-start gap-3">
-            <svg class="w-6 h-6 text-brand-yellow shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-            <span data-i18n-de="Gesetztes Dinner &amp; Abendveranstaltungen" data-i18n-en="Seated dinners &amp; evening events">Gesetztes Dinner & Abendveranstaltungen</span>
-          </li>
-        </ul>
+    
+    <!-- Section Header -->
+    <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-8">
+      <div class="max-w-2xl">
+        <span class="text-brand-yellow uppercase tracking-[0.2em] text-xs font-bold mb-4 block" data-i18n-de="Catering &amp; Pauschalen" data-i18n-en="Catering &amp; Packages">Catering & Pauschalen</span>
+        <h2 class="text-balance" data-i18n-de="Kulinarik &amp; Tagungspauschalen" data-i18n-en="Culinary &amp; Conference Packages">Kulinarik & Tagungspauschalen</h2>
       </div>
-      <div class="lg:w-1/2 order-2 lg:order-1 w-full">
-        <article class="surface-card room-card group cursor-pointer relative overflow-hidden flex flex-col h-full min-h-[400px]" data-room-id="experiences">
-          {{> placeholder room="Experiences" img="/assets/Tagungsmappe/NewClub199imags/experiences-info.png" }}
-          <div class="p-8 relative z-10 bg-surface-dark flex-1 flex flex-col">
-            <span class="text-brand-yellow text-[10px] uppercase tracking-widest font-bold mb-2" data-i18n-de="Unvergessliche Momente" data-i18n-en="Unforgettable Moments">Unvergessliche Momente</span>
-            <h3 class="text-2xl mb-2 group-hover:text-white transition-colors duration-300" data-i18n-de="Experiences" data-i18n-en="Experiences">Experiences</h3>
-            <p class="text-gray-400 text-sm font-inter mb-6 leading-relaxed flex-1" data-i18n-de="Ergänzen Sie Ihr Event mit unseren kuratierten Experiences – von Tastings bis hin zu besonderen Keynotes." data-i18n-en="Enhance your event with our curated experiences – from tastings to special keynotes.">
-              Ergänzen Sie Ihr Event mit unseren kuratierten Experiences – von Tastings bis hin zu besonderen Keynotes.
-            </p>
-            <ul class="text-xs text-gray-500 font-inter space-y-2 mb-6">
-              <li class="flex items-center gap-2"><span class="w-1 h-1 bg-white/20 rounded-full"></span> <span data-i18n-de="Maßgeschneidert" data-i18n-en="Tailor-made">Maßgeschneidert</span></li>
-              <li class="flex items-center gap-2"><span class="w-1 h-1 bg-white/20 rounded-full"></span> <span data-i18n-de="Kulinarik & Entertainment" data-i18n-en="Culinary & Entertainment">Kulinarik & Entertainment</span></li>
-            </ul>
-            <div class="flex items-center justify-between border-t border-white/10 pt-4 mt-auto">
-              <span class="text-xs uppercase tracking-widest text-gray-300" data-i18n-de="Informationen" data-i18n-en="Information">Informationen</span>
-              <span class="text-[10px] text-gray-600" data-i18n-de="Details ansehen" data-i18n-en="View details">Details ansehen</span>
+      <p class="text-gray-400 font-inter max-w-md text-balance leading-relaxed" data-i18n-de="Von leichten Brain-Food-Lunches bis zur vollumfänglichen Tagungspauschale inklusive Raummiete – unser Catering-Partner begleitet Ihr Business-Event auf höchstem Niveau." data-i18n-en="From light brain-food lunches to full conference packages including room rental – our catering partner accompanies your business event at the highest level.">
+        Von leichten Brain-Food-Lunches bis zur vollumfänglichen Tagungspauschale inklusive Raummiete – unser Catering-Partner begleitet Ihr Business-Event auf höchstem Niveau.
+      </p>
+    </div>
+
+    <!-- Highlight: NEU Tagungspauschale Banner Card -->
+    <div class="mb-12 relative overflow-hidden surface-card border border-brand-yellow/30 bg-gradient-to-br from-[#121212] via-[#0A0A0A] to-[#050505] p-8 md:p-10 rounded-sm">
+      <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-8 relative z-10">
+        <div class="max-w-2xl">
+          <div class="inline-flex items-center gap-2 bg-brand-yellow/10 border border-brand-yellow/30 px-3 py-1 rounded-full mb-4">
+            <span class="w-2 h-2 rounded-full bg-brand-yellow animate-pulse"></span>
+            <span class="text-brand-yellow text-xs font-bold uppercase tracking-widest" data-i18n-de="NEU: Tagungspauschale" data-i18n-en="NEW: Conference Package">NEU: Tagungspauschale</span>
+          </div>
+          <h3 class="text-3xl lg:text-4xl text-white font-outfit mb-4" data-i18n-de="Das Rundum-Sorglos-Paket für Ihr Meeting" data-i18n-en="The All-Inclusive Package for Your Meeting">Das Rundum-Sorglos-Paket für Ihr Meeting</h3>
+          <p class="text-gray-400 font-inter text-base mb-6 leading-relaxed" data-i18n-de="Konzentrieren Sie sich voll auf Ihre Inhalte. Unsere Tagungspauschale bündelt alle essenziellen Leistungen für einen produktiven Tag im club199." data-i18n-en="Focus fully on your agenda. Our conference package combines all essential services for a productive day at club199.">
+            Konzentrieren Sie sich voll auf Ihre Inhalte. Unsere Tagungspauschale bündelt alle essenziellen Leistungen für einen produktiven Tag im club199.
+          </p>
+          
+          <!-- Features List -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm font-inter text-gray-300">
+            <div class="flex items-center gap-2.5">
+              <svg class="w-5 h-5 text-brand-yellow shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span data-i18n-de="inkl. Raummiete" data-i18n-en="incl. Room Rental">inkl. Raummiete</span>
+            </div>
+            <div class="flex items-center gap-2.5">
+              <svg class="w-5 h-5 text-brand-yellow shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span data-i18n-de="inkl. 1x Kaffeepause (herzhaft &amp; süß)" data-i18n-en="incl. 1x Coffee Break (savory &amp; sweet)">inkl. 1x Kaffeepause (herzhaft & süß)</span>
+            </div>
+            <div class="flex items-center gap-2.5">
+              <svg class="w-5 h-5 text-brand-yellow shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span data-i18n-de="inkl. Healthy Lunch (Salate &amp; Bowls)" data-i18n-en="incl. Healthy Lunch (Salads &amp; Bowls)">inkl. Healthy Lunch (Salate & Bowls)</span>
+            </div>
+            <div class="flex items-center gap-2.5">
+              <svg class="w-5 h-5 text-brand-yellow shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span data-i18n-de="inkl. Getränkepauschale (Wasser, Kaffee, Softs)" data-i18n-en="incl. Drinks Flat (Water, Coffee, Soft Drinks)">inkl. Getränkepauschale (Wasser, Kaffee, Softs)</span>
             </div>
           </div>
-        </article>
+        </div>
+
+        <div class="flex flex-col items-start lg:items-end justify-center shrink-0 border-t lg:border-t-0 lg:border-l border-white/10 pt-6 lg:pt-0 lg:pl-10">
+          <span class="text-xs uppercase tracking-widest text-gray-400 mb-1" data-i18n-de="Tagungspauschale" data-i18n-en="Conference Package">Tagungspauschale</span>
+          <div class="flex items-baseline gap-2 mb-1">
+            <span class="text-xs text-gray-400 uppercase tracking-widest" data-i18n-de="ab" data-i18n-en="from">ab</span>
+            <span class="text-4xl lg:text-5xl font-outfit font-bold text-brand-yellow">89 €</span>
+          </div>
+          <span class="text-xs text-gray-500 font-inter mb-6" data-i18n-de="pro Person / zzgl. MwSt." data-i18n-en="per person / excl. VAT">pro Person / zzgl. MwSt.</span>
+          <a href="https://club199.com/booking" target="_blank" class="bg-brand-yellow text-brand-black px-6 py-3 uppercase tracking-widest text-xs font-bold hover:bg-white transition-colors duration-300 w-full lg:w-auto text-center" data-i18n-de="Pauschale anfragen" data-i18n-en="Inquire Package">
+            Pauschale anfragen
+          </a>
+        </div>
       </div>
     </div>
+
+    <!-- Catering Options Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+      
+      <!-- 1. Kaffeepause -->
+      <div class="surface-card p-8 flex flex-col justify-between border border-white/5 hover:border-brand-yellow/30 transition-colors duration-300">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="text-brand-yellow text-[10px] uppercase tracking-widest font-bold" data-i18n-de="Vormittag / Nachmittag" data-i18n-en="Morning / Afternoon">Vormittag / Nachmittag</span>
+            <span class="text-xs text-gray-500 font-inter">2 Teile p.P.</span>
+          </div>
+          <h3 class="text-2xl mb-2 text-white font-outfit" data-i18n-de="Kaffeepause" data-i18n-en="Coffee Break">Kaffeepause</h3>
+          <p class="text-gray-400 text-sm font-inter leading-relaxed mb-6" data-i18n-de="Frische Auswahl an 2 herzhaften und süßen Snacks pro Person, perfekt abgestimmt auf produktive Kaffeepausen." data-i18n-en="Fresh selection of 2 savory and sweet snacks per person, perfectly tailored for productive coffee breaks.">
+            Frische Auswahl an 2 herzhaften und süßen Snacks pro Person, perfekt abgestimmt auf produktive Kaffeepausen.
+          </p>
+        </div>
+        <div class="flex items-baseline justify-between border-t border-white/10 pt-4 mt-auto">
+          <span class="text-2xl font-outfit font-bold text-white">13 €</span>
+          <span class="text-xs text-gray-500 font-inter" data-i18n-de="pro Person / zzgl. MwSt." data-i18n-en="per person / excl. VAT">p.P. / zzgl. MwSt.</span>
+        </div>
+      </div>
+
+      <!-- 2. Healthy Lunch -->
+      <div class="surface-card p-8 flex flex-col justify-between border border-white/5 hover:border-brand-yellow/30 transition-colors duration-300">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="text-brand-yellow text-[10px] uppercase tracking-widest font-bold" data-i18n-de="Fresh &amp; Light" data-i18n-en="Fresh &amp; Light">Fresh & Light</span>
+            <span class="text-xs text-gray-500 font-inter" data-i18n-de="ab 5 Personen" data-i18n-en="from 5 people">ab 5 Personen</span>
+          </div>
+          <h3 class="text-2xl mb-2 text-white font-outfit" data-i18n-de="Healthy Lunch" data-i18n-en="Healthy Lunch">Healthy Lunch</h3>
+          <p class="text-gray-400 text-sm font-inter leading-relaxed mb-6" data-i18n-de="Leichte und vitalisierende Speisenauswahl an frischen Salaten und modernen Bowls. Speisenauswahl erfolgt individuell." data-i18n-en="Light and energizing selection of fresh salads and modern bowls. Meal selection is tailored individually.">
+            Leichte und vitalisierende Speisenauswahl an frischen Salaten und modernen Bowls. Speisenauswahl erfolgt individuell.
+          </p>
+        </div>
+        <div class="flex items-baseline justify-between border-t border-white/10 pt-4 mt-auto">
+          <span class="text-2xl font-outfit font-bold text-white">25 €</span>
+          <span class="text-xs text-gray-500 font-inter" data-i18n-de="pro Person / zzgl. MwSt." data-i18n-en="per person / excl. VAT">p.P. / zzgl. MwSt.</span>
+        </div>
+      </div>
+
+      <!-- 3. Sushi Lunch -->
+      <div class="surface-card p-8 flex flex-col justify-between border border-white/5 hover:border-brand-yellow/30 transition-colors duration-300">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="text-brand-yellow text-[10px] uppercase tracking-widest font-bold" data-i18n-de="Premium Taste" data-i18n-en="Premium Taste">Premium Taste</span>
+            <span class="text-xs text-gray-500 font-inter" data-i18n-de="ab 10 Personen" data-i18n-en="from 10 people">ab 10 Personen</span>
+          </div>
+          <h3 class="text-2xl mb-2 text-white font-outfit" data-i18n-de="Sushi Lunch" data-i18n-en="Sushi Lunch">Sushi Lunch</h3>
+          <p class="text-gray-400 text-sm font-inter leading-relaxed mb-6" data-i18n-de="Frische Variation aus ausgewählten Sushi-Spezialitäten (Maki, Nigiri, Rolls) in feinster Qualität." data-i18n-en="Fresh variety of selected sushi specialties (maki, nigiri, rolls) in top quality.">
+            Frische Variation aus ausgewählten Sushi-Spezialitäten (Maki, Nigiri, Rolls) in feinster Qualität.
+          </p>
+        </div>
+        <div class="flex items-baseline justify-between border-t border-white/10 pt-4 mt-auto">
+          <span class="text-2xl font-outfit font-bold text-white">25 €</span>
+          <span class="text-xs text-gray-500 font-inter" data-i18n-de="pro Person / zzgl. MwSt." data-i18n-en="per person / excl. VAT">p.P. / zzgl. MwSt.</span>
+        </div>
+      </div>
+
+      <!-- 4. Warmes Lunch Buffet -->
+      <div class="surface-card p-8 flex flex-col justify-between border border-white/5 hover:border-brand-yellow/30 transition-colors duration-300">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="text-brand-yellow text-[10px] uppercase tracking-widest font-bold" data-i18n-de="Warmes Buffet" data-i18n-en="Warm Buffet">Warmes Buffet</span>
+            <span class="text-xs text-gray-500 font-inter" data-i18n-de="ab 15 Personen" data-i18n-en="from 15 people">ab 15 Personen</span>
+          </div>
+          <h3 class="text-2xl mb-2 text-white font-outfit" data-i18n-de="Warmes Lunch Buffet" data-i18n-en="Warm Lunch Buffet">Warmes Lunch Buffet</h3>
+          <p class="text-gray-400 text-sm font-inter leading-relaxed mb-6" data-i18n-de="Auswahl aus zwei warmen Hauptspeisen inklusive knackigem Salat und abgestimmten Beilagen." data-i18n-en="Selection of two hot main dishes including fresh salad and matching side dishes.">
+            Auswahl aus zwei warmen Hauptspeisen inklusive knackigem Salat und abgestimmten Beilagen.
+          </p>
+        </div>
+        <div class="flex items-baseline justify-between border-t border-white/10 pt-4 mt-auto">
+          <span class="text-2xl font-outfit font-bold text-white">35 €</span>
+          <span class="text-xs text-gray-500 font-inter" data-i18n-de="pro Person / zzgl. MwSt." data-i18n-en="per person / excl. VAT">p.P. / zzgl. MwSt.</span>
+        </div>
+      </div>
+
+      <!-- 5. Premium Lunch -->
+      <div class="surface-card p-8 flex flex-col justify-between border border-white/5 hover:border-brand-yellow/30 transition-colors duration-300">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="text-brand-yellow text-[10px] uppercase tracking-widest font-bold" data-i18n-de="3-Gänge Buffet" data-i18n-en="3-Course Buffet">3-Gänge Buffet</span>
+            <span class="text-xs text-gray-500 font-inter" data-i18n-de="ab 15 Personen" data-i18n-en="from 15 people">ab 15 Personen</span>
+          </div>
+          <h3 class="text-2xl mb-2 text-white font-outfit" data-i18n-de="Premium Lunch" data-i18n-en="Premium Lunch">Premium Lunch</h3>
+          <p class="text-gray-400 text-sm font-inter leading-relaxed mb-6" data-i18n-de="Gehobene Auswahl aus zwei warmen Hauptspeisen inkl. Salat, feinen Beilagen und exklusivem Dessert." data-i18n-en="Upscale selection of two hot main courses incl. salad, fine side dishes, and exclusive dessert.">
+            Gehobene Auswahl aus zwei warmen Hauptspeisen inkl. Salat, feinen Beilagen und exklusivem Dessert.
+          </p>
+        </div>
+        <div class="flex items-baseline justify-between border-t border-white/10 pt-4 mt-auto">
+          <span class="text-2xl font-outfit font-bold text-white">45 €</span>
+          <span class="text-xs text-gray-500 font-inter" data-i18n-de="pro Person / zzgl. MwSt." data-i18n-en="per person / excl. VAT">p.P. / zzgl. MwSt.</span>
+        </div>
+      </div>
+
+      <!-- 6. Getränkepauschale -->
+      <div class="surface-card p-8 flex flex-col justify-between border border-white/5 hover:border-brand-yellow/30 transition-colors duration-300">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="text-brand-yellow text-[10px] uppercase tracking-widest font-bold" data-i18n-de="All Day Flat" data-i18n-en="All Day Flat">All Day Flat</span>
+            <span class="text-xs text-gray-500 font-inter" data-i18n-de="ganztags" data-i18n-en="full-day">ganztags</span>
+          </div>
+          <h3 class="text-2xl mb-2 text-white font-outfit" data-i18n-de="Getränkepauschale" data-i18n-en="Beverage Flat Rate">Getränkepauschale</h3>
+          <p class="text-gray-400 text-sm font-inter leading-relaxed mb-6" data-i18n-de="Umfassende Flatrate für Ihr Event: Inklusive Premium-Mineralwasser, Barista-Kaffeespezialitäten und Softdrinks." data-i18n-en="Comprehensive flat rate for your event: Includes premium mineral water, barista coffee specialties, and soft drinks.">
+            Umfassende Flatrate für Ihr Event: Inklusive Premium-Mineralwasser, Barista-Kaffeespezialitäten und Softdrinks.
+          </p>
+        </div>
+        <div class="flex items-baseline justify-between border-t border-white/10 pt-4 mt-auto">
+          <span class="text-2xl font-outfit font-bold text-white">22 €</span>
+          <span class="text-xs text-gray-500 font-inter" data-i18n-de="pro Person / zzgl. MwSt." data-i18n-en="per person / excl. VAT">p.P. / zzgl. MwSt.</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Teaser: Sommerfeste & Weihnachtsfeiern Notice & Experiences Card -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+      
+      <!-- Notice Box: Evening & Seasonal Events -->
+      <div class="lg:col-span-2 surface-card p-8 border border-white/5 flex flex-col justify-center bg-[#0A0A0A]">
+        <div class="flex items-center gap-3 mb-3">
+          <span class="w-2 h-2 rounded-full bg-brand-yellow"></span>
+          <span class="text-brand-yellow text-xs uppercase tracking-widest font-bold" data-i18n-de="In Vorbereitung" data-i18n-en="In Preparation">In Vorbereitung</span>
+        </div>
+        <h3 class="text-2xl text-white font-outfit mb-3" data-i18n-de="Pakete für Weihnachtsfeiern &amp; Sommerfeste" data-i18n-en="Packages for Christmas &amp; Summer Parties">Pakete für Weihnachtsfeiern & Sommerfeste</h3>
+        <p class="text-gray-400 font-inter text-sm leading-relaxed mb-6" data-i18n-de="Spezielle Event- und Menüpakete für Sommerfeste auf unserer Dachterrasse sowie stimmungsvolle Weihnachtsfeiern und Abendevents arbeiten wir aktuell aus. Sprechen Sie uns für individuelle Vorab-Konzepte gerne direkt an." data-i18n-en="Special event and menu packages for summer parties on our rooftop terrace as well as atmospheric Christmas parties and evening events are currently being developed. Contact us directly for customized preliminary concepts.">
+          Spezielle Event- und Menüpakete für Sommerfeste auf unserer Dachterrasse sowie stimmungsvolle Weihnachtsfeiern und Abendevents arbeiten wir aktuell aus. Sprechen Sie uns für individuelle Vorab-Konzepte gerne direkt an.
+        </p>
+        <div>
+          <a href="https://club199.com/booking" target="_blank" class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-brand-yellow hover:text-white transition-colors" data-i18n-de="Individuelles Abendevent anfragen &rarr;" data-i18n-en="Inquire Custom Evening Event &rarr;">
+            Individuelles Abendevent anfragen &rarr;
+          </a>
+        </div>
+      </div>
+
+      <!-- Curated Experiences Card Modal Trigger -->
+      <article class="surface-card room-card group cursor-pointer relative overflow-hidden flex flex-col" data-room-id="experiences">
+        {{> placeholder room="Experiences" img="/assets/Tagungsmappe/NewClub199imags/experiences-info.png" }}
+        <div class="p-6 relative z-10 bg-surface-dark flex-1 flex flex-col justify-between">
+          <div>
+            <span class="text-brand-yellow text-[10px] uppercase tracking-widest font-bold mb-1 block" data-i18n-de="Add-on Highlight" data-i18n-en="Add-on Highlight">Add-on Highlight</span>
+            <h3 class="text-xl mb-2 group-hover:text-white transition-colors duration-300 font-outfit" data-i18n-de="Curated Experiences" data-i18n-en="Curated Experiences">Curated Experiences</h3>
+            <p class="text-gray-400 text-xs font-inter leading-relaxed" data-i18n-de="Tastings, Masterclasses &amp; Keynotes als Rahmenprogramm." data-i18n-en="Tastings, masterclasses &amp; keynotes as side program.">
+              Tastings, Masterclasses & Keynotes als Rahmenprogramm.
+            </p>
+          </div>
+          <div class="flex items-center justify-between border-t border-white/10 pt-3 mt-4">
+            <span class="text-[10px] uppercase tracking-widest text-gray-300" data-i18n-de="Individuell" data-i18n-en="Custom">Individuell</span>
+            <span class="text-[10px] text-brand-yellow group-hover:underline" data-i18n-de="Details ansehen" data-i18n-en="View details">Details ansehen &rarr;</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
   </div>
 </section>

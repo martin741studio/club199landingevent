@@ -47,9 +47,9 @@
     "floorplan": "/assets/images/floorplan/Thinktankfloorplan.png"
   },
   {
-    "id": "workshop-iii",
-    "name": "Workshop III",
-    "nameEn": "Workshop III",
+    "id": "workshop",
+    "name": "Workshop",
+    "nameEn": "Workshop",
     "subtitle": "Focus Space",
     "subtitleEn": "Focus Space",
     "capacity": "1-10 Personen",
@@ -94,9 +94,9 @@
     "floorplan": "/assets/images/floorplan/linvingroomfloorplan.png"
   },
   {
-    "id": "the-studio",
-    "name": "The Studio",
-    "nameEn": "The Studio",
+    "id": "studio",
+    "name": "Studio",
+    "nameEn": "Studio",
     "subtitle": "Dynamische Gruppenarbeiten & Workshops",
     "subtitleEn": "Dynamic Group Work & Workshops",
     "capacity": "1-25 Personen",

@@ -44,9 +44,9 @@ const SLIDES = [
   { name: "4. OG", color: "#000000", image: img4og },
   { name: "The Office", color: "#000000", image: imgOffice },
   { name: "Thinktank", color: "#000000", image: imgThinktank },
-  { name: "Workshop III", color: "#000000", image: imgWorkshop },
+  { name: "Workshop", color: "#000000", image: imgWorkshop },
   { name: "Living Room", color: "#000000", image: imgLivingRoom },
-  { name: "The Studio", color: "#000000", image: imgStudio },
+  { name: "Studio", color: "#000000", image: imgStudio },
   { name: "Atelier", color: "#000000", image: imgAtelier },
   { name: "The Kitchen", color: "#000000", image: imgKitchen },
   { name: "1. OG", color: "#000000", image: img1og }
